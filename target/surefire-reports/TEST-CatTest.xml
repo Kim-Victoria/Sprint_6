@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="CatTest" time="2.393" tests="2" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="CatTest" time="2.476" tests="2" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="23"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="RU"/>
     <property name="sun.boot.library.path" value="C:\Users\alskv\.jdks\openjdk-23.0.2\bin"/>
-    <property name="sun.java.command" value="C:\Users\alskv\AppData\Local\Temp\surefire11802053090036299079\surefirebooter-20250406172105643_3.jar C:\Users\alskv\AppData\Local\Temp\surefire11802053090036299079 2025-04-06T17-21-05_499-jvmRun1 surefire-20250406172105643_1tmp surefire_0-20250406172105643_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\alskv\AppData\Local\Temp\surefire11231391429244007173\surefirebooter-20250409173023468_3.jar C:\Users\alskv\AppData\Local\Temp\surefire11231391429244007173 2025-04-09T17-30-23_167-jvmRun1 surefire-20250409173023468_1tmp surefire_0-20250409173023468_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\alskv\Documents\TESTING\qa_java\target\test-classes;C:\Users\alskv\Documents\TESTING\qa_java\target\classes;C:\Users\alskv\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\alskv\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\alskv\.m2\repository\org\mockito\mockito-core\5.16.1\mockito-core-5.16.1.jar;C:\Users\alskv\.m2\repository\net\bytebuddy\byte-buddy-agent\1.15.11\byte-buddy-agent-1.15.11.jar;C:\Users\alskv\.m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar;C:\Users\alskv\.m2\repository\net\bytebuddy\byte-buddy\1.17.5\byte-buddy-1.17.5.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\alskv\AppData\Local\Temp\surefire11802053090036299079\surefirebooter-20250406172105643_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\alskv\AppData\Local\Temp\surefire11231391429244007173\surefirebooter-20250409173023468_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="23.0.2+7-58"/>
@@ -59,7 +59,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="67.0"/>
   </properties>
-  <testcase name="CatGetSoundTest" classname="CatTest" time="0.382">
+  <testcase name="catGetSoundTest" classname="CatTest" time="0.352">
     <system-err><![CDATA[Mockito is currently self-attaching to enable the inline-mock-maker. This will no longer work in future releases of the JDK. Please add Mockito as an agent to your build as described in Mockito's documentation: https://javadoc.io/doc/org.mockito/mockito-core/latest/org/mockito/Mockito.html#0.3
 java.lang.instrument.IllegalClassFormatException: Error while instrumenting com/sun/tools/attach/VirtualMachine.
 	at org.jacoco.agent.rt.internal_3570298.CoverageTransformer.transform(CoverageTransformer.java:94)
@@ -128,5 +128,5 @@ WARNING: If a serviceability tool is not in use, please run with -Djdk.instrumen
 WARNING: Dynamic loading of agents will be disallowed by default in a future release
 ]]></system-err>
   </testcase>
-  <testcase name="CatGetFoodTest" classname="CatTest" time="0.098"/>
+  <testcase name="catGetFoodTest" classname="CatTest" time="0.07"/>
 </testsuite>

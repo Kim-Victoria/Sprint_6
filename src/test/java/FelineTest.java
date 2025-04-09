@@ -14,11 +14,9 @@ import static org.mockito.Mockito.spy;
 
 @RunWith(MockitoJUnitRunner.class)
 public class FelineTest {
-    @Mock
-    private Animal animal;
 
     @Test
-    public void FelineEatFoodTest() throws Exception {
+    public void felineEatFoodTest() throws Exception {
         Feline feline = spy(new Feline());
         List<String> mockedFoodList = List.of("Животные", "Птицы", "Рыба");
         Mockito.when(feline.getFood("Хищник")).thenReturn(mockedFoodList);
@@ -27,19 +25,18 @@ public class FelineTest {
     }
 
     @Test
-    public void FelineGetFamilyTest() {
+    public void felineGetFamilyTest() {
         Feline feline = new Feline();
         assertEquals("Кошачьи", feline.getFamily());
     }
     @Test
-    public void FelineGetKittensTest() {
+    public void felineGetKittensTest() {
         Feline feline = new Feline();
         assertEquals(1, feline.getKittens());
     }
     @Test
-    public void FelineKittensCountTest() {
-        Feline feline = Mockito.mock(Feline.class);
-        Mockito.when(feline.getKittens(1)).thenReturn(1);
+    public void felineKittensCountTest() {
+        Feline feline = new Feline();
         int kittensCount = feline.getKittens(1);
         assertEquals(1, kittensCount);
     }

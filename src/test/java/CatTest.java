@@ -17,13 +17,13 @@ public class CatTest {
     private Feline feline;
 
     @Test
-    public void CatGetSoundTest() throws Exception {
+    public void catGetSoundTest() throws Exception {
         Cat cat = new Cat(feline);
         assertEquals("Мяу", cat.getSound());
     }
 
     @Test
-    public void CatGetFoodTest () throws Exception {
+    public void catGetFoodTest () throws Exception {
         Cat cat = new Cat(feline);
         List<String> catGetFood = List.of("Животные", "Птицы", "Рыба");
         Mockito.when(feline.eatMeat()).thenReturn(catGetFood);

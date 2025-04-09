@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="FelineTest" time="0.002" tests="4" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="ParameterizedLionTest" time="0.001" tests="4" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="23"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -59,8 +59,8 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="67.0"/>
   </properties>
-  <testcase name="felineGetKittensTest" classname="FelineTest" time="0.0"/>
-  <testcase name="felineKittensCountTest" classname="FelineTest" time="0.0"/>
-  <testcase name="felineGetFamilyTest" classname="FelineTest" time="0.0"/>
-  <testcase name="felineEatFoodTest" classname="FelineTest" time="0.0"/>
+  <testcase name="lionHasManeExceptionTest[0]" classname="ParameterizedLionTest" time="0.0"/>
+  <testcase name="lionHasManeTest[0]" classname="ParameterizedLionTest" time="0.0"/>
+  <testcase name="lionHasManeExceptionTest[1]" classname="ParameterizedLionTest" time="0.0"/>
+  <testcase name="lionHasManeTest[1]" classname="ParameterizedLionTest" time="0.0"/>
 </testsuite>
